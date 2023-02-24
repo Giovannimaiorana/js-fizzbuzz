@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+   
+}
+.square{
+    width: 80px;
+    height: 80px;
+    margin: left 10px;
+    background-color: rgb(171, 114, 1);
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
