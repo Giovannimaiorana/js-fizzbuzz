@@ -9,18 +9,32 @@ body{
 .container{
     width: 1000px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
    
 }
 .square{
     width: 80px;
     height: 80px;
-    margin: left 10px;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: rgb(171, 114, 1);
-    font-size: 30px;
-    position: absolute;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-
+}
+.fizzBuzz{
+    background-color: red;
+    font-size: 16px;
+}
+.fizz{
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 16px;
+}
+.buzz{
+    background-color: cadetblue;
+    font-size: 16px;
 }
